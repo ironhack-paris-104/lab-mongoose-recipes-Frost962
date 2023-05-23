@@ -67,4 +67,5 @@ mongoose
 
   .finally(() => {
     mongoose.disconnect();
+    console.log("Disconnected from database");
   });
